@@ -1,9 +1,14 @@
+import {ShoppingCart} from 'feather-icons-react'
+import './style.css'
+
 function CartWidget() {
     const logo = 'Joaleria';
 
     return (
         <div className="CartWidget">
-            <h3>Carrinho</h3>
+            <ShoppingCart size="50"/>
+            <span>3</span>
+
             <NavBar logoNeme={logo} sobrenome="Azevedo" />
 
             <NavBar logoNeme="Igor">

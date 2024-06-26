@@ -1,0 +1,10 @@
+.CartWidget {
+    position: relative;
+}
+
+.CartWidget spam {
+    position: absolute;
+    top: 15px;
+    right: 19px;
+    font-weight: 700;
+}
